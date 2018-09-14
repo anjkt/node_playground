@@ -1,11 +1,4 @@
-var http = require("http");
-http.createServer(function(request, response) {
-    response.writeHead(200, {"Content-Type": "text/plain"});
-    response.write(parameterVariable);
-    response.end();
-    }).listen(8888);
-
-    'use strict';
+'use strict';
 
 process.stdin.resume();
 process.stdin.setEncoding('utf-8');
